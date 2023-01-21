@@ -64,11 +64,10 @@ form label, form legend {
 }
 
 .formato {
-    border-radius: 5px;
-    background-color: transparent;
-    border: 2px;
-    border-color: black;
-    color: white;
+   background-color: transparent;
+   border: none;
+   outline: none;;
+   color: white;
 }
 
 .boton {
