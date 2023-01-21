@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content = "IE = edge" content = "">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        
+        <title> Encriptador - Challenge Alura </title>
+        
+       
+        <link rel = "stylesheet" href = "style.css">
+        <link href = "https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed&display=swap" rel = "stylesheet"> 
+        <link href = "https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel = "stylesheet"> 
+        <link href = "https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel = "stylesheet"> 
+    
+    </head>
+
+    <body>
+
+        <div>
+            <header>
+                <h1> ENCRIPTADOR DE TEXTO </h1>
+                <H2> CHALLENGE ALURA </H2>
+            </header>
+        </div>
+
+        <br><br>
+
+        <main class = "menu">
+           
+            <section class = "monitor">              
+                
+                <form>  
+                    <label for = "ingresarTxt"> Ingrese el mensaje que desea encriptar o desencriptar </label>
+                    <textarea cols = "70" rows = "16" type = "text" name = "ingresarTxt" id = "ingresarTxt" class = "formato" placeholder = "No ingrese mayúsculas ni caracteres especiales..."></textarea>
+                </form>
+
+                <input type = "button" value = "Encriptar" id = "btn-encriptar" class = "boton">
+                <input type = "button" value = "Desencriptar" id = "btn-desencriptar" class = "boton" >
+            
+            </section>
+
+            <section class = "monitor">
+
+                <form>
+                    <label for = "copiarTxt"> Mensanje encriptado </label>
+                    <textarea cols = "70" rows = "16" type = "text" id = "mensaje" name = "copiarTxt" disabled = "true" class = "formato"></textarea>
+                </form>
+                         
+                <input type = "button" value = "Copiar texto" id = "btn-copiar" class = "boton" >
+
+            </section>
+
+        </main>
+        
+        <br><br><br>
+
+        <footer>
+            <img class = "insignia" src = "imagenes/Insignia Challenge.png">
+            <p> &copy DDRojas Y2K23  - damyrojas@gmail.com</p>
+            
+        </footer>
+            
+        <script src = "script.js"></script>
+
+    </body>
+
+</html>

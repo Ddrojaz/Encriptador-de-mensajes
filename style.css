@@ -1,0 +1,100 @@
+html, body, div, h1, h2, form, footer, header, 
+menu {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+header {
+    display: block;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    background-image: url(imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+.menu {
+    display: block;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.monitor {
+    background-image: url(imagenes/monitor.png);
+    margin: 1%;
+    height: 557px;
+	width: 641px;
+}
+
+form {
+    margin: 45px;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.formato::-webkit-input-placeholder{
+    color: white;
+    font-size: 15px;
+}
+
+.formato {
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px;
+    border-color: black;
+    color: white;
+}
+
+.boton {
+    margin: 35px;
+    width: 30%;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background: darkslategrey;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+footer {
+    display: inline-flex;
+    font-family: 'Moon Dance', cursive;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+.insignia {
+    float: left;
+    width: 10%;
+    display: inline;
+}
