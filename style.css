@@ -45,7 +45,7 @@ body {
     background-image: url(imagenes/monitor.png);
     margin: 1%;
     height: 557px;
-	width: 641px;
+    width: 641px;
 }
 
 form {
@@ -66,7 +66,7 @@ form label, form legend {
 .formato {
    background-color: transparent;
    border: none;
-   outline: none;;
+   outline: none;
    color: white;
 }
 
