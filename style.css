@@ -68,6 +68,7 @@ form label, form legend {
    border: none;
    outline: none;
    color: white;
+   resize: none;
 }
 
 .boton {
