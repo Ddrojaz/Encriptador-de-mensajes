@@ -9,7 +9,6 @@ function validarTexto (texto) {
       
     if (texto.match(mayusculas) || texto.match(especiales)) {
     
-        document.querySelector("#ingresarTxt").value = "";
         document.querySelector("#mensaje").value = "";
         alert ("Se ingreso un carácter especial o una letra mayúscula");
         return true; 
@@ -75,7 +74,6 @@ botonEncriptar.addEventListener ("click", function() {
         let encriptado = encriptar(txt);
         let verificacion = document.querySelector("#mensaje");
         verificacion.value = encriptado;
-        document.querySelector("#ingresarTxt").value = "";
         alert ("Mensaje encriptado con éxito");
 
     } 
@@ -124,7 +122,6 @@ btnDesencriptar.addEventListener ("click", function() {
     let desencriptado = desencriptar(textoIngresado);
     let vacio = "";
     let resultado = document.querySelector("#mensaje");
-    document.querySelector("#ingresarTxt").value = "";
 
     if (desencriptado == vacio) {
 
@@ -139,7 +136,7 @@ btnDesencriptar.addEventListener ("click", function() {
     }
 })
 
-+/* Boton refrescar pantalla.- */
+/* Boton refrescar pantalla.- */
 
 let btnRefrescar = document.querySelector("#btn-refresco");
 
