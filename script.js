@@ -138,3 +138,14 @@ btnDesencriptar.addEventListener ("click", function() {
 
     }
 })
+
++/* Boton refrescar pantalla.- */
+
+let btnRefrescar = document.querySelector("#btn-refresco");
+
+btnRefrescar.addEventListener ("click", function() {
+
+    document.querySelector("#ingresarTxt").value = "";
+    document.querySelector("#mensaje").value = "";
+
+})
